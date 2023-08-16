@@ -166,8 +166,9 @@ footer {
     background-color: #e53935;
 }
 .logo {
-    width: 1050px;
+    width: 500px;
     height: 200px;
+    margin-right: 50px;
 }
 
 /* ... Rest of the CSS code ... */
