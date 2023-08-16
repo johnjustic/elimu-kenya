@@ -1,0 +1,153 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a base font size and family */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Course details section styles */
+#course-details {
+    background-color: #F7F7F7;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#course-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#course-details p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#course-details .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#course-details .cta-button:hover {
+    background-color: #FF8A65;
+}
+
+/* Course syllabus section styles */
+#course-syllabus {
+    padding: 40px 0;
+    text-align: left;
+}
+
+#course-syllabus h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#course-syllabus ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* Course cards section styles */
+#courses {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#courses h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.course-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course-list li {
+    flex-basis: calc(33.33% - 20px); /* Adjust the width as needed */
+    border: 1px solid #DDD;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.course-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.course-list img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.course-list h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.course-list p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.course-list .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.course-list .cta-button:hover {
+    background-color: #FF8A65;
+}
