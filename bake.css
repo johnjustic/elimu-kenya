@@ -206,3 +206,169 @@ footer {
 }
 
 /* ... Rest of the CSS code ... */
+/* ... Previous CSS code ... */
+
+/* About section styles */
+#about {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-box {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.about-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ... Rest of the CSS code ... */
+/* ... Previous CSS code ... */
+
+/* About section styles */
+#about {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-box {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.about-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ... Rest of the CSS code ... */
+/* ... Previous CSS code ... */
+
+/* About box horizontal layout */
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Arrange cards in two columns */
+.about-box {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+/* Add lifting effect on hover */
+.about-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ... Rest of the CSS code ... */
+/* ... Previous CSS code ... */
+
+/* About box horizontal layout */
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+    align-items: center; /* Center the cards vertically */
+}
+
+/* Arrange cards in two columns */
+.about-box {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 20px);
+    margin: 10px; /* Add margin for spacing */
+    transition: transform 0.3s;
+}
+
+/* Add lifting effect on hover */
+.about-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ... Rest of the CSS code ... */
