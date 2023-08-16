@@ -166,9 +166,12 @@ footer {
     background-color: #e53935;
 }
 .logo {
-    width: 500px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     margin-right: 50px;
+}
+.main {
+    background-color: rgb(129, 76, 39);
 }
 
 /* ... Rest of the CSS code ... */
