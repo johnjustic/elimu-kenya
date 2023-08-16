@@ -167,7 +167,7 @@ footer {
 .course-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(202, 136, 3, 0.2);
-    background-color: #d27f03; /* Turn green on hover */
+    background-color: #c5d2cd; /* Turn green on hover */
 }
 
 /* ... Rest of the CSS code ... */
