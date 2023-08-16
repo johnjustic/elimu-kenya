@@ -165,5 +165,9 @@ footer {
 .meal-card:hover button.order-button {
     background-color: #e53935;
 }
+.logo {
+    width: 1050px;
+    height: 200px;
+}
 
 /* ... Rest of the CSS code ... */
