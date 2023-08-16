@@ -173,7 +173,9 @@ img {
     width:auto;
 }
 h1 {
-    color: white;
+    color: rgb(5, 90, 109);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 img {
