@@ -33,9 +33,10 @@ nav a {
 
 /* Home section styles */
 #home {
-    background-color: #f2f2f2;
+    background-image: url('https://www.preparedfoods.com/ext/resources/ISSUES/2020/April/MSL_Soy.jpg?height=635&t=1585249345&width=1200');
     padding: 80px 0;
     text-align: center;
+    color: rgb(16, 15, 15);
 }
 
 #home h1 {
