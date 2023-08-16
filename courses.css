@@ -151,3 +151,23 @@ footer {
 .course-list .cta-button:hover {
     background-color: #FF8A65;
 }
+/* ... Previous CSS code ... */
+
+/* Course card styles */
+.course-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: calc(50% - 40px);
+    transition: transform 0.3s, background-color 0.3s; /* Added background-color transition */
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(202, 136, 3, 0.2);
+    background-color: #d27f03; /* Turn green on hover */
+}
+
+/* ... Rest of the CSS code ... */
