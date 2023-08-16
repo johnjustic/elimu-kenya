@@ -372,3 +372,42 @@ footer {
 }
 
 /* ... Rest of the CSS code ... */
+/* ... Previous CSS code ... */
+
+/* About box horizontal layout */
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Arrange cards in two columns */
+.about-box {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 20px);
+    margin: 10px;
+    transition: transform 0.3s, background-color 0.3s; /* Added background-color transition */
+}
+
+/* Add lifting effect and color change on hover */
+.about-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #ff9800; /* Change to orange on hover */
+}
+
+.about-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ... Rest of the CSS code ... */
