@@ -189,12 +189,12 @@ img {
     color:white;
 }
 .card-section {
-    color: black;
+    color: rgb(162, 157, 157);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
-    background-color: #333;
+    background-color: rgb(223, 111, 12);
 }
 
 /* Style for the card */
