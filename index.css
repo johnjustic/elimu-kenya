@@ -2,7 +2,7 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    color: black;
+    color: white;
 }
 
 /* Set a base font size and family */
@@ -34,7 +34,7 @@ nav a {
 
 /* Hero section styles */
 #hero {
-    background-image: url('elimuu.jpg');
+    background-image: url('bac.jpg');
     background-size: cover;
     color: white;
     text-align: center;
@@ -44,6 +44,7 @@ nav a {
 #hero h1 {
     font-size: 3rem;
     margin-bottom: 10px;
+    color: white;
 }
 
 #hero p {
@@ -81,7 +82,8 @@ nav a {
 #courses {
     padding: 80px 0;
     text-align: center;
-    background-image: url('courses.jpg');
+    background-image: url('bac.jpg');
+    color: white;
 }
 
 #courses h2 {
@@ -138,6 +140,7 @@ footer {
     
     #courses li {
         width: 100%;
+        color: white;
     }
 }
 #about {
