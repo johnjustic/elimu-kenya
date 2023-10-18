@@ -8,6 +8,8 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
+    background-color: black;
+    background-image: url('guy.jpg');
 }
 
 /* Header styles */
@@ -42,66 +44,69 @@ nav a {
     margin-bottom: 20px;
 }
 
-/* About card styles */
-.about-cards {
+ /* Style for each card section */
+.card-section {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.about-card {
-    background-color: #F5F5F5;
-    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
-    width: calc(25% - 30px); /* Adjust card width and gap */
 }
 
-.about-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+/* Style for the individual cards */
+.card {
+    width: 600px; /* Adjust the width as needed */
+    height: 350px;
+    background-color: rgb(5, 5, 4);
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
 }
-
-.about-card img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 15px;
+/* Add a hover effect to scale the card up */
+.card:hover {
+    transform: scale(1.1);
 }
-
-.about-card h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.about-card p {
-    font-size: 1rem;
-    color: #666;
-}
-
-/* Footer styles */
+/* Style for the footer container */
 footer {
-    background-color: #333;
-    color: white
-}
-/* ... Previous CSS code ... */
-
-.about-box {
-    position: relative;
-    background-color: #333;
-    color: white;
-    border-radius: 8px;
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color in the footer */
     padding: 20px;
-    width: calc(50% - 20px);
-    margin-bottom: 20px;
-    transition: transform 0.5s, box-shadow 0.3s;
+    text-align: center;
 }
 
-.about-box:hover {
-    transform: translateY(-10px) rotateX(45deg); /* Apply rotation on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+/* Style for links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
 }
 
-/* ... Rest of the CSS code ... */
+footer a:hover {
+    color: #ff9900; /* Change link color on hover */
+}
+
+/* Additional styles for the footer content */
+footer p {
+    margin: 10px 0;
+}
+
+/* Add styles for any additional elements in your footer */
+h3 {
+    color: rgb(243, 243, 243);
+}
+p {
+    color: rgb(244, 249, 244);
+}
+.card-content {
+    color: #fff; /* White text color */
+}
+.card-image {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 10px;
+}
