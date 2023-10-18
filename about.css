@@ -97,10 +97,10 @@ footer p {
 
 /* Add styles for any additional elements in your footer */
 h3 {
-    color: rgb(243, 243, 243);
+    color: orange;
 }
 p {
-    color: rgb(244, 249, 244);
+    color: rgb(249, 248, 244);
 }
 .card-content {
     color: #fff; /* White text color */
