@@ -220,13 +220,13 @@ main {
     color: rgb(2, 2, 2); /* Text color on the banner */
     text-align: center;
     padding: 100px 0;
-    animation: changeBackground 12s infinite;
+    animation: changeBackground 30s infinite;
 }
 
 .banner h1 {
     font-size: 36px;
     margin: 0;
-    color:#f6f3f3
+    color:#f6f3f3;
 }
 
 .banner h2 {
