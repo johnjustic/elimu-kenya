@@ -220,7 +220,7 @@ main {
     color: rgb(2, 2, 2); /* Text color on the banner */
     text-align: center;
     padding: 100px 0;
-    animation: changeBackground 10s infinite;
+    animation: changeBackground 12s infinite;
 }
 
 .banner h1 {
@@ -246,4 +246,5 @@ main {
     40% { background-image: url('four.jpg'); }
     60% { background-image: url('one.jpg'); }
     80% { background-image: url('two.jpg'); }
+    100% { background-image: url('three.jpg'); }
 }
