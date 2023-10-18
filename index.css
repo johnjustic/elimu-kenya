@@ -241,10 +241,10 @@ main {
     color: #fefbfb;
 }
 @keyframes changeBackground {
-    0%, 100% { background-image: url('free.jpg'); } /* Your banner images */
-    20% { background-image: url('five.jpg'); }
-    40% { background-image: url('four.jpg'); }
-    60% { background-image: url('one.jpg'); }
-    80% { background-image: url('two.jpg'); }
-    100% { background-image: url('three.jpg'); }
+    20%, 120% { background-image: url('free.jpg'); } /* Your banner images */
+    40% { background-image: url('five.jpg'); }
+    60% { background-image: url('four.jpg'); }
+    80% { background-image: url('one.jpg'); }
+    100% { background-image: url('two.jpg'); }
+    120% { background-image: url('three.jpg'); }
 }
